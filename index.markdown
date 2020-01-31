@@ -5,7 +5,7 @@ layout: splash
 title: Home
 
 header:
- overlay_image: /assets/images/splash.jpg
+ overlay_image: assets/images/splash.jpg
  overlay_color: '#7d7d7d'
  overlay_filter: ".35"
  caption: "Phtoto Credit: Me!"
