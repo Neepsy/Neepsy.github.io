@@ -16,7 +16,7 @@ intro:
  - excerpt: 'On this site you can find information regarding the projects I have done, and maybe an occasional blog post or two.'
   
 projects_row:
- - image_path: assets/images/code.png
+ - image_path: assets/images/js.png
    alt: "picture of some JavaScript"
    title: "Projects"
    excerpt: "Take a gander at some of my projects!"
