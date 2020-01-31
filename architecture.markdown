@@ -5,7 +5,7 @@ permalink: "/architecture"
 
 
 gallery:
- - url: /assets/arch/exterior_2.jpg
+ - url: /assets/arch/exterior_2.JPG
    image_path: /assets/arch/exterior_2_thumb.jpg
    alt: "exterior shot of the LAC"
    title: "Image Credit: OlafJanssen, Wikimedia. Labels added"

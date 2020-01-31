@@ -12,3 +12,7 @@ This page details some of the projects I have done. Click into the post to learn
 
 <br/>
 A website for my high school's Computer Science Honor Society [more...](/projects/2020/01/30/csnhs-website.html)
+
+<img style="float: left; padding: 20px;" src="/assets/arch/exterior_3.jpg" width="65%" height="10%"/>
+<br/>
+Architecture Scanvenger Hunt [more...](/architecture)
