@@ -25,6 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   I put all of the random stuff I made, probably for a class.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+minimal_mistakes_skin: "air"
 twitter_username: 
 github_username:  Neepsy
 

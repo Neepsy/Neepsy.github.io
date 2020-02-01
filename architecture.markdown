@@ -2,7 +2,7 @@
 layout: single
 title: Architecture Hunt
 permalink: "/architecture"
-
+read_time: true
 
 gallery:
  - url: /assets/arch/exterior_2_labeled.jpg
@@ -22,7 +22,7 @@ gallery:
 
 {% include figure image_path="/assets/arch/exterior_1.jpg" alt="exterior shot of the LAC" caption="Photo Credit: [Fred Romero](https://flickr.com/photos/129231073@N06/31239073724)"%}
 
-## The London Aquatics Centre
+# The London Aquatics Centre
 
 This page is the results of a "Scavenger Hunt" for my *Architecture and Society* course. The ultimate goal
 of the project was to find media and information relating to a certain building. The one that I chose was the
@@ -39,6 +39,7 @@ London Aquatics Centre, in well, London.
  <li>Area: 15950 m^2</li>
 </ul>
 </div>
+<br/>
 
 Designed by the late architect Zaha Hadid, the London Aquatics Centre was orginally built for the 2012
 London Olympics games[^1]. The centre has been busy even after the conclusion of the Olympics. Today, it hosts
@@ -93,8 +94,17 @@ of her most famous works being located in China, Korea, and the Middle East[^5].
 
 Zaha Hadid says that she was inspiried by fluids, and wanted to design a building that resembled a liquid. She wanted people to feel like they are free floating while
 they are swimming in the pool. When you look up from inside the pool, she wanted the ceiling to look like the surface of the water, making it feel like you were still underwater.
-She closes by saying that she has spent a lot of time in East London, where the LAC is located, and is happy to see that it has grown into a bustling city.
+Hadid closes by saying that she has spent a lot of time in East London, where the LAC is located, and is happy to see that it has grown into a bustling city.
 
+### A timelapse video of activies inside Centre[^1]
+
+{% include video id="176454186" provider="vimeo" %}
+
+In this timelapse you can see that even after the Olympic games have ended, the London Aquatics Center remains a hub of activity. You can see exactly what goes on inside,
+from family events to swimming lessons. You can also see the way *light* flows in through the large windows on either side of the building.
+
+
+### Sources and Citations
 
 [^1]: Jett, Megan. “London Aquatics Centre for 2012 Summer Olympics.” ArchDaily, ArchDaily, 18 Aug. 2011, www.archdaily.com/161116/london-aquatics-centre-for-2012-summer-olympics-zaha-hadid-architects.
 [^2]: “London 2012 Legacy.” London Aquatic Centre, London Aquatic Centre, 1 Mar. 2014, www.londonaquaticscentre.org/about/legacy. 
