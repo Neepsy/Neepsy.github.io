@@ -17,6 +17,18 @@ gallery:
    image_path: /assets/arch/earth.jpg
    alt: "Picture of the LAC in Google Earth VR"
    title: "Image Credit: Google Earth VR"
+ - url: /assets/arch/tech_floor.jpg
+   image_path: /assets/arch/tech_floor.jpg
+   alt: "Floor plan of the LAC"
+   title: "The floor plan of the LAC during the Olympics. Credit: Zaha Hadid Architects"
+ - url: /assets/arch/tech_cross.jpg
+   image_path: /assets/arch/tech_cross.jpg
+   alt: "Cross section of the LAC"
+   title: "A cross section of the Centre. Credit: Zaha Hadid Architects"
+ - url: /assets/arch/draw.jpg
+   image_path: /assets/arch/draw.jpg
+   alt: "Pencil sketch of the LAC"
+   title: "My drawing of the Centre"
 ---
 
 
@@ -42,7 +54,8 @@ London Aquatics Centre, in well, London.
 <br/>
 
 Designed by the late architect Zaha Hadid, the London Aquatics Centre was orginally built for the 2012
-London Olympics games[^1]. The centre has been busy even after the conclusion of the Olympics. Today, it hosts
+London Olympics games[^1]. It was the site of many water based events, including swimming, diving, and more.
+The Centre has been busy even after the conclusion of the Olympics. Today, it acts as an indepedent organization, hosting
 various events such as swimming classes, community events, and the occasional sporting competition[^2]. 
 <br/>
 
@@ -55,6 +68,10 @@ various events such as swimming classes, community events, and the occasional sp
 <div style="font-size:smaller">
 I "visited" the London Aquatics Center using Google Earth VR (See screenshot in the gallery). From there you can see that the LAC and the Olympic park is situated inside in a patch
 of greenery inside of the urban landscape of London. Just across a river is a the main Olympics stadium, as well a massive red sculpture.
+<br/>
+<br/>
+In my drawing of the Centre, I wanted to capture the way the building curves and how that relates to the river it sits next to. The boxy buildings that are
+behind it help to emphasize this.
 </div>
 <br/>
 
@@ -67,11 +84,11 @@ After the Olympics, the extra seating was removed, and now windows are in their 
 </div>
 
 ## Online and In Media
-[A journal article about the Centre](https://www.architectmagazine.com/project-gallery/london-aquatics-centre-397)
+[A journal article about the Centre](search.ebscohost.com/login.aspx?direct=true&db=asu&AN=98938959&site=ehost-live)
 <br/>
-The London Aquatics Center was built perpindicular and right next to the Stratford City Bridge, which was the main connection into the Olympic park. Because of this
-the Centre was the first thing visitors would see of the park. As such, a lot of effort was made into designing it as it was the first impression visitors would have. The
-Centre actually hosts three different pools. The main competition pool, and smaller diving pool, and finally a training pool located on a lower level.[^3]
+The London Aquatics Center was a very costly project to build. Coming in at about £240 million, the centre ended up costing over 3 times what was predicted when the
+building was first designed all the way back in 2005. Despite this, the cost of admission is only 4.5 British pounds, or about 6 USD, making the centre very accessible.
+Lastly, the author of the article states they feel the LAC feels much more "real", espcially compared to the generic modern shopping centers surrounding the Olympic Park.[^3]
 
 <br/>
 [A website which features the Centre](https://www.arch2o.com/london-aquatics-centre-zaha-hadid-architects/)
@@ -103,11 +120,28 @@ Hadid closes by saying that she has spent a lot of time in East London, where th
 In this timelapse you can see that even after the Olympic games have ended, the London Aquatics Center remains a hub of activity. You can see exactly what goes on inside,
 from family events to swimming lessons. You can also see the way *light* flows in through the large windows on either side of the building.
 
+### Two print sources featuring the LAC
+
+*Adapatable Design in Olympic Architecture*
+<br/>
+This journal entry details how buildings designed for the Olympic games have evolved alongside the games themselves. As the amount of water based events, and the athletes particpating in them,
+increased, Olympic pools had to be able to handle larger and more diverse events. The London Aquatics Center can be seen as a reflection of that. With a maximum capacity of 15,000 spectators and
+three different pools for swimming, water polo, diving, etc. it serves the role as a modern pool for the modern Olympics [^6].
+<br/>
+
+*Style vs Synthesis*
+<br/>
+In this article, the author Peter Buchanan compares the architecture of the London Aquatics Center and the nearby Olympics Velodrome (The indoor bicycle track). He states that
+because the LAC was intended as the focal point of the Olympic park, it was given the most budget. As a result, its design was highly deliberate and *styled*. However, he argues that
+the lower budget of the Velodrome allowed for the *synthesis* of ideas on the design team (which included a proessional bicyclist), making it the more beautiful building in his opinion [^7].
+<br/>
 
 ### Sources and Citations
 
 [^1]: Jett, Megan. “London Aquatics Centre for 2012 Summer Olympics.” ArchDaily, ArchDaily, 18 Aug. 2011, www.archdaily.com/161116/london-aquatics-centre-for-2012-summer-olympics-zaha-hadid-architects.
 [^2]: “London 2012 Legacy.” London Aquatic Centre, London Aquatic Centre, 1 Mar. 2014, www.londonaquaticscentre.org/about/legacy. 
-[^3]: Madsen, Deane. “London Aquatics Centre.” Architectmagazine.com, American Institute of Architects, 19 July 2012, www.architectmagazine.com/project-gallery/london-aquatics-centre-397.
+[^3]: Olcayto, Rory. “London Aquatics Centre Zaha Hadid Architects.” Architects’ Journal, vol. 240, no. 13, Oct. 2014, pp. 102–112. EBSCOhost, search.ebscohost.com/login.aspx?direct=true&db=asu&AN=98938959&site=ehost-live.
 [^4]: “London Aquatics Centre: Zaha Hadid Architects.” Arch2O.Com, Arch2O, 5 Dec. 2018, www.arch2o.com/london-aquatics-centre-zaha-hadid-architects/.
 [^5]: Sudjic, Deyan. “Dame Zaha Hadid Obituary.” The Guardian, Guardian News and Media, 1 Apr. 2016, www.theguardian.com/artanddesign/2016/apr/01/zaha-hadid-obituary.
+[^6]: Brown, Laura Alexandra, and Manuel Cresciani. “Adaptable Design in Olympic Construction.” International Journal of Building Pathology and Adaptation, vol. 35, no. 4, 2017, pp. 397–416., doi:10.1108/ijbpa-12-2016-0030.
+[^7]: Buchanan, Peter. “Style vs Synthesis.” Architectural Review, vol. 232, no. 1386, Aug. 2012, pp. 40–49.
