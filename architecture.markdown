@@ -39,7 +39,12 @@ gallery:
 This page is the results of a "Scavenger Hunt" for my *Architecture and Society* course. The ultimate goal
 of the project was to find media and information relating to a certain building. The one that I chose was the
 London Aquatics Centre, in well, London.
+<div style="font-size:smaller">
+-Eric Li
+</div>
 
+<br/>
+<br/>
 <div style="border-style: solid; border-width: 2px; border-radius: 5px;">
 
 <p>&nbsp;&nbsp;Fast Facts [1]</p>
@@ -84,7 +89,7 @@ After the Olympics, the extra seating was removed, and now windows are in their 
 </div>
 
 ## Online and In Media
-[A journal article about the Centre](search.ebscohost.com/login.aspx?direct=true&db=asu&AN=98938959&site=ehost-live)
+[A journal article about the Centre](https://search.ebscohost.com/login.aspx?direct=true&db=asu&AN=98938959&site=ehost-live)
 <br/>
 The London Aquatics Center was a very costly project to build. Coming in at about £240 million, the centre ended up costing over 3 times what was predicted when the
 building was first designed all the way back in 2005. Despite this, the cost of admission is only 4.5 British pounds, or about 6 USD, making the centre very accessible.
@@ -98,7 +103,7 @@ with this. The curved *shape* of the roof combined with its' smooth *texture* an
 a building dedicated to hosting aquatic sporting events [^4].
 
 <br/>
-[An article and obituary for the architect of the LAC, Zaha Hadid](https://www.easybib.com/project/style/mla8?id=1580503224_5e3490b87a0571.82573638)
+[An article and obituary for the architect of the LAC, Zaha Hadid](https://www.theguardian.com/artanddesign/2016/apr/01/zaha-hadid-obituary)
 <br/>
 When Zaha Hadid first began her architecture career in the 1980s, most of the designing was still done on paper. However, soon various computer assisted design tools 
 were developed, and these allowed her to create her unique flowing and fluid style. Hadid was also unique in that she designed many buildings outside of the west, with many
