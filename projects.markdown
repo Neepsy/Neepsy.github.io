@@ -26,7 +26,7 @@ Architecture Scanvenger Hunt [more...](/architecture)
 <div markdown="1" style="padding: 10px; margins: 10px">
 <br/>
 ### Winter's Return
-<img style="float: left; padding: 20px;" src="/assets/images/sq_title.PNG" width="65%" height="10%"/>
+<img style="float: left; padding: 20px;" src="/assets/images/sq_t.png" width="65%" height="10%"/>
 <br/>
 Play as a squirrel trying to gather food for the winter [more...](/projects/2020/03/01/winters-return.html)
 </div>
