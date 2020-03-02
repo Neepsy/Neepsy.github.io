@@ -5,7 +5,7 @@ date: 2020-03-01 17:17:50 -0600
 categories: projects
 read_time: true
 ---
-{% include figure image_path="/assets/images/sq_game.png" alt="Screenshot of Winter's Return" %}
+{% include figure image_path="/assets/images/sq_game.PNG" alt="Screenshot of Winter's Return" %}
 
 A Unity 2D game developed in 48 hours for [UT Game Jam 2019](https://itch.io/jam/ut-game-jam-2019).
 Check out the full credits and download the game [here](https://schwizzlers.itch.io/winters-return).
