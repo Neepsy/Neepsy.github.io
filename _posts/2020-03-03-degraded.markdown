@@ -1,0 +1,53 @@
+---
+layout: single
+title: "De;Graded"
+date: 2020-03-03 11:36:50 -0600
+categories: projects
+read_time: true
+---
+
+{% include figure image_path="/assets/images/dg_robot.PNG" alt="The robot from DeGraded" caption="DEGaS, the protagnist of DeGraded. Modeled by the talented Stoney Jimenez"%}
+
+De;Graded is a Unity 3D game that I helped to create for Global Game Jam 2020 for the theme *repair*.
+You can find the GGJ entry page for the game [here](https://globalgamejam.org/2020/games/degraded-3).
+And full credits and a download for Mac and Windows [here](https://tiagoros.itch.io/degraded).
+
+The game is about a robot who wakes up in an abadoned labatory. All of it's part except for it's head have seemingly
+disappeared. The robot must then explore the lab to find it's missing comonents and then escape.
+
+Truth be told, the game is pretty short. I think without performing any glitches you can finish the
+game in less than 20 seconds if you know what you're doing.
+
+### UI and UX
+<img style="float: left; padding: 10px;" src="/assets/images/dg_log.gif" width="65%" />
+I was in charge for creating art assets for the enviroment, as well as coding up some parts of the UI.
+Persoanlly, I think my favorite UI element I made was the message log. I wanted to emulate a sterotypical "hacker" console you see in media.
+Text pops up line by line, with new lines pushing up old ones, and then slowly fades away.
+
+Any interactable object can pass a string array into the message logs display function, which will cause the log to show each
+line with a configurable delay. The message log was used for some exposition/story, as well as a tutorial of sorts. For example, picking
+up a leg might inform the player that *"jump.exe was installed"*, and picking up the second leg might say *"jump.exe updated to V2.0"*.
+These messages provide an in universe way to inform the player of their new capabilites.
+
+<img style="float: left; padding: 10px;" src="/assets/images/dg_title.gif" width="50%" />
+Another part that I enjoyed making was the main menu. Continuing with the game's robot theme, the menu consists of three connected gears.
+The gears behave in a somewhat realistic way (none of that three interlocked gear nonsense). Alternating gears spin in opposite directions, and smaller gears spin
+faster than bigger ones (This may be hard to see in the gif due to low frame rate). If you want to add additional gears and menu options, the system is easily extended. Simply add the new gear and it's relative spin speed
+to the gear animator array, and the script will do the rest.
+
+### Merge Errors
+My team decided to use GitHub for version control and code sharing. However, GitHub and Unity don't play together very well. Many art assets, 3D models, etc. are
+in a binary format and cannot be versioned controlled properly using Git. Out mistake was dividing the repository up into three branches. One contained the art, the other
+was for character control and movement, and a final one for sound and ui. When it came time to put out work together about two-thirds though the jam, we discovered that
+we had accumalted *a lot* of merges errors.
+
+After our team spent an hour or so struggling to clear them out, we decided that taking the nuclear option might actually be faster. We manually copied all the assets
+to one computer and pushed that the new master branch.
+
+Lessoned learned, in the future don't wait until the very end to combine branches. This should be done often to keep any possible merge errors as small as possible. Alternatively, everyone
+commits and pushes to the same branch so everyone will be working with the same files.
+<img style="display: block; margin-left:auto; margin-right: auto; padding: 10px;" src="/assets/images/qb.png" width="70%" />
+
+
+
+
