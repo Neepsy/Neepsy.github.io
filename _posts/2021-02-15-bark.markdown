@@ -3,6 +3,7 @@ layout: single
 title:  "Barkaeologist"
 date:   2021-02-15 07:45:00 -0600
 categories: projects
+permalink: /projects/bark
 read_time: true
 ---
 {% include figure image_path="/assets/images/dog_banner.png" alt="A dog standing in a sandbox" caption="Woof!"%}
