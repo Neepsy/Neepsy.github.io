@@ -34,7 +34,7 @@ Play as a squirrel trying to gather food for the winter [more...](/projects/2020
 <div markdown="1" style="padding: 10px; margins: 10px">
 <br/>
 ### De;Graded
-<img style="float: left; padding: 20px;" src="/assets/images/dg_robot.png" width="65%" height="10%"/>
+<img style="float: left; padding: 20px;" src="/assets/images/dg_bot.png" width="65%" height="10%"/>
 <br/>
 An abandoned robot wakes up in a forgotten laboratory... [more...](/projects/2020/03/03/degraded.html)
 </div>

@@ -6,11 +6,13 @@ categories: projects
 read_time: true
 ---
 
-{% include figure image_path="/assets/images/dg_robot.PNG" alt="The robot from DeGraded" caption="DEGaS, the protagnist of DeGraded. Modeled by the talented Stoney Jimenez"%}
+{% include figure image_path="/assets/images/dg_bot.PNG" alt="The robot from DeGraded" caption="DEGaS, the protagnist of DeGraded. Modeled by the talented Stoney Jimenez"%}
 
 De;Graded is a Unity 3D game that I helped to create for Global Game Jam 2020 for the theme *repair*.
 You can find the GGJ entry page for the game [here](https://globalgamejam.org/2020/games/degraded-3).
-And full credits and a download for Mac and Windows [here](https://tiagoros.itch.io/degraded).
+If you want to try out the game, you can download it for Windows and Mac on Itch.IO
+
+<iframe src="https://itch.io/embed/560842" width="552" height="167" frameborder="0"><a href="https://tiagoros.itch.io/degraded">de;graded by tiagoros</a></iframe>
 
 The game is about a robot who wakes up in an abadoned labatory. All of it's part except for it's head have seemingly
 disappeared. The robot must then explore the lab to find it's missing comonents and then escape.
