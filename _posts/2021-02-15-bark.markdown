@@ -1,0 +1,60 @@
+---
+layout: single
+title:  "Barkaeologist"
+date:   2021-02-15 19:45:00 -0600
+categories: projects
+read_time: true
+---
+{% include figure image_path="/assets/images/dog_banner.png" alt="A dog standing in a sandbox" caption="Woof!"%}
+
+Barkaeologist is a 3D Unity created for Global Game Jam 2021 - Austin for the theme "Lost and Found". 
+It was given the *Fantastically Found (Best Use of Theme)* award!
+You can play the game online at Itch.IO, or download it onto PC or Mac. 
+<iframe src="https://itch.io/embed/902924" width="552" height="167" frameborder="0"><a href="https://schwizzlers.itch.io/barkaeologist">BARK!-AEOLOGIST by schwizzlers, Midaki, TheWubOne, Dane Byrd, John Harger, Neepsy, almostelle</a></iframe>
+
+### Sniff and find
+
+While our team was brainstorming to think of a game for the theme, we joked that we could create a game where the player had to sniff in real life to sniff
+in game. While we eventually dropped the sniffing IRL portion, we kept the smelling in game part as a central part of gameplay.
+While navigating the game world, you might come across objects giving off unique smells indicated by a particle effect.
+Pressing F to sniff while near such an object will give you a trail to follow, leading you to your goal.
+{% include figure image_path="/assets/images/dog_smell.png" alt="A dog getting a whiff of a banana" caption="Smells like potassium..."%}
+
+### The Science of Smelling
+
+I was in charge of implementing this sniffing system for the game. My main concern was making the system easy for the player to understand
+while also making sure that they did not feel "railroaded" or forced onto a specific path by it. As such, after smelling scent source you are given
+a trail that loosely guides you towards your final destination. However, you are free to go and explore any other part of the map or sniff anything that catches your nose.
+
+{% include figure image_path="/assets/images/dog_dig.png" alt="A dog digging up a bone" caption="One dog's treasure"%}
+
+The smelling system extensively uses Unity's layer systems. The small "preview" particles, the big wavy scent particles, and circular trails are all on seperate layers. 
+By toggling the changing the visibility of each of these layers on the game camera, we can fake turning on and off these objects. (They still exisist, you just don't see them).
+This way, we could avoid having to toggle numerous objects every time the player started or stopped smelling. It also provides extensability. If we wanted to add more
+smellables to the game, we would just have to make sure the layer is set correctly, rather than adding the new items of a gigantic list of toggles in our code.
+  
+Additionally, I created a simple distance fade shader for the circular scent trails you see in game. The idea was that the intial parts of the trail
+would be visible near the scent source. Far away parts of the trail would be invisible, so you could not just go directly to the end. However, as you
+followed the trail, later parts of would begin to appear, showing you the way. The shader was created using Unity's Shader Graph. While I had some experience with
+node based shaders from Blender Cycles, Shader graph was defineitly pretty different. Luckily I had teammates and tutorials to guide me!
+
+### Talking Bones
+
+{% include figure image_path="/assets/images/dog_talk_upsize.png" alt="Some in game dialogue" caption="Hey! Listen!" width="100"%}
+
+Your guide along your bone sniffing journey is a skeleton who tells you the controls, says various bone puns when you find objects, and occasionally gives
+(not so helpful) hints. I implemented a system where dialogue from the skeleton would be printed out typewriter style. It would also
+automatically adjust the delay before the message disappeared based on the length of the text.
+  
+However we realised that if two dialogue events occured at once (say, if the player found a bone at the same time the game decided to 
+display a hint), it would cause a race condition! The two messages would get jumbled together into an unreadable mess. To fix this I implemented a simple
+mutual exclusion into the system. When anything triggers some dialogue, the message is added into a queue. I also placed a "lock" around the coroutine that actually
+prints the message into the text box.
+  
+Messages wait in the queue until they are at the front and the lock for the text box is avaliable. When that happens,
+the message "grabs" the lock, prints itself into the dialogue box, waits for the fade out delay, and finally releases the lock.
+This creates a robust system where dialogue lines are printed one at a time and in the correct order.
+
+ 
+
+

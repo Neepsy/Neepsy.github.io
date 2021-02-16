@@ -8,7 +8,8 @@ read_time: true
 {% include figure image_path="/assets/images/sq_game.PNG" alt="Screenshot of Winter's Return" %}
 
 A Unity 2D game developed in 48 hours for [UT Game Jam 2019](https://itch.io/jam/ut-game-jam-2019).
-Check out the full credits and download the game [here](https://schwizzlers.itch.io/winters-return).
+Check out the full credits and download the game at Itch.IO
+<iframe src="https://itch.io/embed/486655" width="552" height="167" frameborder="0"><a href="https://schwizzlers.itch.io/winters-return">Winter's Return by schwizzlers, landrew, Joe Adamay, SpringJam, Neepsy, Aimery</a></iframe>
 
 Special thanks for out mentor Kurt Williams from Twisted Pixel Games! He helped to create many of the game's key art assets.
 

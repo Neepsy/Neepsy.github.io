@@ -38,3 +38,11 @@ Play as a squirrel trying to gather food for the winter [more...](/projects/2020
 <br/>
 An abandoned robot wakes up in a forgotten laboratory... [more...](/projects/2020/03/03/degraded.html)
 </div>
+
+<div markdown="1" style="padding: 10px; margins: 10px">
+<br/>
+### Barkaeologist
+<img style="float: left; padding: 20px;" src="/assets/images/dog_title.png" width="65%" height="10%"/>
+<br/>
+Can you sniff out some lost bones? [more...](/projects/2021/02/15/bark.html)
+</div>
