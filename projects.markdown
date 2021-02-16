@@ -44,5 +44,5 @@ An abandoned robot wakes up in a forgotten laboratory... [more...](/projects/202
 ### Barkaeologist
 <img style="float: left; padding: 20px;" src="/assets/images/dog_title.png" width="65%" height="10%"/>
 <br/>
-Can you sniff out some lost bones? [more...](/projects/2021/02/16/bark.html)
+Can you sniff out some lost bones? [more...](/projects/2021/02/15/bark.html)
 </div>
