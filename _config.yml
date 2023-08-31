@@ -30,7 +30,7 @@ twitter_username:
 github_username:  Neepsy
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: minimal-mistakes-jekyll
 minimal-mistakes-skin: "air"
 plugins:
   - jekyll-feed
