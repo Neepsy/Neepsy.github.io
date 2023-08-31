@@ -1,0 +1,55 @@
+---
+layout: single
+title:  "Interim"
+date:   2023-08-31 14:25:00 -0600
+categories: projects
+permalink: /projects/interim
+read_time: true
+---
+{% include figure image_path="/assets/images/interim_banner.png" alt="Interim top banner"%}
+
+Interim is a 2D side scrolling platforming creating using Unity. It was created by Team Dream Six for the 2D Game Development Capstone at UT Austin. 
+Play as the dream detective Rem that jumps into your client's nightmares to uncover the truth behind the darkness that has covered your small town.
+You can download it on Itch.Io where it is avaliable for both Windows and Mac!
+<iframe frameborder="0" src="https://itch.io/embed/1722756" width="552" height="167"><a href="https://jiaxinhuang.itch.io/interim">Interim by Jiaxin Huang, Kokash, Nat Lee, Neepsy, Rainelo, Boju</a></iframe>
+
+
+### On The Offensive
+
+One of the main parts of the game I worked on was the player package. This including moving, jumping, dashing, and most importantly the combat system.
+At first we wanted a complex system featuring combos, blocking, and more similar to a fighting game. However as we worked and tested the game more we realised
+that would likely be overambtious and overwhelm both us the developers and players as well. As such we scaled down the attacking to just the basic combo and left the
+other parts as a potential stretch goal. 
+
+However after the first playtest, our players complained that the combat system was too simple and they would just mash the attack button
+over and over. After some debate we decided to implement a more powerful charged attack that also fired off a shockwave which pierced walls and terrain. This allowed the charge attack to also double as a ranged
+attack as well. We taught the player about this by having them use their charged attack to hit a switch behind a locked door, which I thought was a pretty neat feature!
+
+![attack_gif](/assets/images/interim_attack.gif){:style="display:block; margin-left:auto; margin-right:auto; width:45%"}
+
+### You're in Control!
+
+During playtesting we originally used a WASD based control scheme. However some players complained and wanted a arrow key based one instead. When we switched the controls around
+for the next round of playtesting the players instead wanted WASD back! We decided to satisify both groups we would implement a control rebinding system so players could decide on
+whatever controls the want! At first the rebind system was only for keyboard controls, but was later extended to support XBox/Gamepad controllers as well. The rebind system was
+linked to the tutorial prompts, so they would display the correct control as well. So if for some reason you like jumping with "Backspace" when it's time to learn about jumping, the
+game will prompt you to hit "Backspace" to do so.
+
+I put a lot of work into this system, but ironically when you released the game, very few players wanted to rebind the controls. They all felt that the default controls were great,
+and many didn't even bother going into the rebind menu unless prompted to do so! Regardless, the option is there for anyone who likes unconvential controls.
+
+{% include figure image_path="/assets/images/interim_rebind.png" alt="Control rebind menu" caption="The choice is yours!"%}
+
+### Giant Enemy Crab
+
+The boss fights of Interim were the most complex and engaging parts of the game. The Crab Boss was the boss that I worked on the most. We wanted each boss to serve as a test of
+the new mechanics that the player was introduced to earlier in the level. The mechanic that the player learned in the crab's level was the ground pound, where the player could rapidly
+descend after jumping and deal damage to nearby enemies on landing, so I designed the fight to mostly revolve around that mechanic.
+
+During the fight the crab would jump around before stopping to execute some sort of attack. This included firing a "volcano" of orbs up into the air, digging with it's claws,
+and shooting homing projectiles. After these attacks the crab was vunerable allowing the player to get in some attacks. If the player landed multiple normal attacks or a *single ground pound*
+the crab would then be stunned, allowing the players to go in and attack its weak point for massive damage. During the capstone showcase, a majority of the players managed to discover and
+execute the ground pound strategy to stun and easily defeat the crab, which I would consider a success!
+
+{% include figure image_path="/assets/images/interim_crab.png" alt="Crab boss" caption="Feeling crabby?"%}
+

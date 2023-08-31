@@ -32,3 +32,5 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 gem "jekyll-include-cache", "~> 0.2.0"
 
 gem "minimal-mistakes-jekyll", "~> 4.18"
+
+gem "rexml", "~> 3.2"
