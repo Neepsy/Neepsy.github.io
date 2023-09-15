@@ -28,15 +28,15 @@ fitting all of the data into my GPU's 6GB of VRAM. This lead to frequent crashes
 
 At this point I deicded to try using *Transfer Learning*, modifying and specializing another pretrained network, for my task. After looking at the pretrained networks provided by the PyTorch library 
 I decided on using [ResNet](https://arxiv.org/abs/1512.03385) as it had good accuracy while also being fairly lightweight. As a result my final model consisted of a "adapter" to convert the image
-data into a format that ResNet could expect, a small portion of ResNet that I finetuned for my task, and final a "decoder" that converted ResNet's output back into a format that could be
+data into a format that ResNet could expect, a small portion of ResNet that I finetuned for my task, and finally a "decoder" that converted ResNet's output back into a format that could be
 used to represent digital images in the CIELAB color space.
 
-{% include figure image_path="/assets/images/graycolor/architecture.PNG" alt="Gray2Color architecture" caption="A simplified represention of what the Gray2Color network looks like"%}
+{% include figure image_path="/assets/images/graycolor/architecture.png" alt="Gray2Color architecture" caption="A simplified represention of what the Gray2Color network looks like"%}
 
 ### Colorful Results
 
-Even though the final results of my network weren't as good as I expected I still found them to be pretty interesting. The network did a good job at colorizing large swaths of the
-image that has similar colors such as foliage, water, or the sky. However it did worse on small details and objects with many possible colors such as cars, clothing, etc.
+Even though the final results of my network weren't as good as I expected, I still found them to be pretty interesting. The network did a good job at colorizing large sections of the
+image that had similar colors such as foliage, water, or the sky. However it did worse on small details and on objects with many possible colors such as cars, clothing, etc.
 
 ---
 
@@ -47,7 +47,7 @@ image that has similar colors such as foliage, water, or the sky. However it did
 ---
 
 I've noticed that the model often selects to color parts of the image it "doesn't understand" a beige color. I believe this is a result of neural network training teaching the model
-how to minimize loss. Essentially the model wants to be as close as possible, mathmatically speaking, to the true result. As such the model will choose a mathmatically average beige
+to minimize loss. Essentially the model wants to be as close as possible, mathmatically speaking, to the true result. As such the model will choose a mathmatically average beige
 color so it can be as "least wrong" as possible, even though it isn't the correct color.
 
 ### Further Specialization
@@ -64,6 +64,6 @@ of apples from this dataset, resized them, generated grayscale versions, and use
 ---
 
 Again the results here were quite interesting. The model learned that apples are red, and colorized red apple successfully. However, it also "believes" that *all* apples are red, even
-if they are green or yellow apples. As a result it will color all apples red regradless of their actual color. It also had a tendency to color non-apple objects with a red tint, making
+if they are green or yellow apples. As such it will color all apples red regradless of their actual color. It also had a tendency to color non-apple objects with a red tint, making
 the results somewhat reminiscent of a style transfer neural network.
 
