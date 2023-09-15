@@ -61,3 +61,17 @@ Can you sniff out some lost bones? [more...](/projects/bark.html)
 <br/>
 A dream within a dream with a dream [more...](/projects/interim.html)
 </div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<div markdown="1" style="padding: 10px; margins: 10px">
+<br/>
+### Gray2Color
+<img style="float: left; padding: 20px;" src="/assets/images/graycolor/gc.png" width="45%" height="10%"/>
+<br/>
+An image colorization CNN [more...](/projects/graycolor.html)
+</div>
